@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="手机批量删除说说，空间说说/留言/日志批量删除">
+  <title>空间说说批量删除，手机上可以用的批量删除说说/留言/日志工具！</title>
+  <style>
+    body {
+      height: 100%;
+      margin: 0 auto;
+      padding-top: 5em;
+    }
+
+    body {
+      margin: 0;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    p,
+    h3 {
+      margin-top: 0;
+      color: #343434;
+    }
+
+    p.second {
+      color: #666;
+      font-size: 1.1rem;
+    }
+
+    p.third {
+      font-size: .8rem;
+    }
+
+    .input {
+      display: inline-block;
+
+      font-size: inherit;
+      border: none;
+      background-color: deepskyblue;
+      text-align: center;
+      padding: 2px 4px;
+      color: white;
+      outline: none;
+      border-radius: 2px;
+      text-decoration: none;
+    }
+
+    .imgs {
+      max-width: 800px;
+      margin: 5rem auto 0;
+    }
+
+    .imgs img {
+      float: left;
+      width: 33.33%;
+    }
+
+    .imgs .tip {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: .5em;
+      display: none;
+    }
+
+    .yincang {
+      display: none;
+    }
+
+    @media screen and (max-width: 640px) {
+      body {
+        padding-top: 2.5em;
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
+
+      .imgs img {
+        float: none;
+        width: 100%;
+      }
+
+      .imgs .tip {
+        opacity: 0;
+        display: block;
+      }
+
+      .input {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div style="padding: 0 1em;">
+    <p class="second" style="color: #333">手机上的 说说/留言/日志 批量删除工具</p>
+    <p class="second" style="font-size: 16px;color:#673ab7;">支持安卓和 iOS</p>
+
+    <!-- <p class="third">新用户免费赠送 100 删除额度
+    ，请加 QQ 交流群使用： <input class="input" value="527538219" />
+    </p> -->
+  </div>
+  <!-- http://pan.baidu.com/s/1dFw9AMX -->
+  <div id="method" style="color: #333;font-size: 13px;max-width: 600px;margin: 45px auto 0;padding: 0 10px;text-align: left;">
+    <p class="second" style="text-align: center;color: #666;font-size: 14px;">如何使用？</p>
+    <p>1. <strong style="color:#673ab7;">安卓用户</strong>去百度网盘下载 Expo：<a href="http://pan.baidu.com/s/1dFw9AMX">http://pan.baidu.com/s/1dFw9AMX</a> 也可以加下方 QQ 群下载</p>
+    <p>2. <strong style="color:#673ab7;">iOS 用户</strong>去 Appstore 搜索 expo 下载安装，对没错，就是排第一的那个 Expo Client</p>
+    <p>3. 如果你完成了上面的步骤，安装好 Expo 后， 在浏览器中点击右边链接打开工具： <a href="https://exp.host/@iinsta/qzone-helper">https://exp.host/@iinsta/qzone-helper</a></p>
+    <p>4. 安卓用户，记得选择 Expo 方式打开</p>
+    <p>5. 等加载完就可以使用啦，加载可能有点慢，如果太久打不开，换4g网络试试</p>
+    <p>6. 打开后，会提示输入 QQ 号，输入 QQ 号进入到空间登录网页</p>
+    <p>7. 登录后，选择删除类型，比如 说说清理/留言清理/日志清理</p>
+    <p>8. 选择后，可以选择一次性删除，也可以选择保留不用删的也可以点击右上角按时间筛选想删除的</p>
+  </div>
+
+  <div id="method" style="color: #333;font-size: 13px;max-width: 600px;margin: 45px auto 0;padding: 0 10px;text-align: left;">
+    <p class="second" style="text-align: center;color: #666;font-size: 14px;">常见问题</p>
+    <p>1. 问：会有病毒吗？ 答：既然收费，肯定不会为了这点钱丢掉信誉；而且 Expo 是国外的一个软件，也在 Appstore 上线了，没问题的</p>
+    <p>2. 问：为什么不免费？ 答：这是业余开发的，花了精力，赚点小钱，谢谢大家支持</p>
+    <p>3. 问：这个和网上代删的有什么区别？ 答：这个可以选择保留，也可以按时间段删除</p>
+    <p>4. 问：为什么界面这么丑？ 答：业余开发，精力有限，保证功能正常可以使用；不排除后面会改善界面</p>
+    <p>5. 问：说说批量删除的原理是什么？ 答：本来是手工一条条删除的，这里使用程序自动化这一流程</p>
+    <p>6. 问：有 QQ群吗？ 答：有的，群号是 527538219，说说批量删除群欢迎大家加入 👏</p>
+    <p>7. 问：如何增加额度？ 答：软件会有提示的，qq群也会有管理为你服务，有不懂的也可以问使用过的</p>
+    <p>8. 问：QQ 群可以下 expo 吗？ 答： 可以的，群文件那个 Expo_v1.20.0.apk 就是</p>
+    <p>9. 问：为什么这个网站这么丑？ 答： 开发小哥精力有限，以及懒...</p>
+  </div>
+
+
+  <div id="method" style="color: #333;font-size: 13px;max-width: 600px;margin: 45px auto 0;padding: 0 10px;text-align: left;">
+      <p class="second" style="text-align: center;color: #666;font-size: 14px;">价格</p>
+      <p>1. 新用户免费删除 100 条</p>
+      <p>2. 超过额度，1600 条 4 块钱，也就是说，400 条 1 块钱</p>
+      <p>3. 删除额度，请联系开发小哥增加 (ˇˍˇ) ~</p>
+    </div>
+
+  <div class="imgs">
+    <p class="second" style="color: #666;font-size: 14px;">使用截图和部分评价</p>
+
+    <div class="tip" style="height:0;margin:0;">删除界面</div>
+    <img data-src="./happy-2.jpg" alt="说说批量删除使用截图">
+    <div class="tip">赞+1</div>
+    <img data-src="./happy-3.jpg" alt="说说批量删除赞一个">
+    <div class="tip">赞+1</div>
+    <img data-src="./happy-1.jpg" alt="说说批量删除赞一个">
+  </div>
+  <script>
+    setTimeout(function () {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-97994030-2', 'auto');
+      ga('send', 'pageview');
+    }, 50)
+  </script>
+  <script>
+    document.querySelectorAll('img[data-src]').forEach(function (i) {
+      i.setAttribute && i.setAttribute('src', i.getAttribute('data-src'))
+    })
+  </script>
+
+</body>
+
+</html>
